@@ -1,5 +1,9 @@
 package edu.clayton.csit.antlab.person;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  *  A simple class for person 2
  *  returns their name and a
@@ -30,9 +34,18 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 2 put your implementation here
-	  return null;
-	}
+    List<Character> chars = new ArrayList<>();
+    for (char c : input.toCharArray()) {
+        chars.add(c);
+    }
+    Collections.shuffle(chars);
+    StringBuilder shuffled = new StringBuilder();
+    for (char c : chars) {
+        shuffled.append(c);
+    }
+    return shuffled.toString();
+}
+
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
