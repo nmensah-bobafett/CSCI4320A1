@@ -1,5 +1,5 @@
 package edu.clayton.csit.antlab.person;
-
+import java.util.*;
 /**
  *  A simple class for person 1
  *  returns their name and a
@@ -14,7 +14,8 @@ public class Person1 {
   	/**
 	 * The constructor, takes in the persons
 	 * name
-	 * @param pname the person's real name
+	 *
+	 *   @param pname the person's real name
 	 */
   public Person1(String pname) {
     name = pname;
@@ -25,13 +26,15 @@ public class Person1 {
 	 * 2 positions.
 	 * given "gtg123b" it should return
 	 * "g123bgt".
-	 *
-	 * @param input the string to be modified
-	 * @return the modified string
+	 * @param input //the string to be modified
+	 * @return //the modified string
 	 */
 	private String calc(String input) {
 	  //Person 1 put your implementation here
-	  return null;
+	  if(input == null || input.length() <2) {
+		return input; //return as-is if too short to rotate
+	  }
+	  return input.substring(2) + input.substring(0,2);
 	}
 	
 	/**
