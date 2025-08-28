@@ -1,1 +1,1 @@
-Tyrese Mayberry - tmayberry1@clayton.edu
+Tyrese Mayberry - tmayberry1@student.clayton.edu
