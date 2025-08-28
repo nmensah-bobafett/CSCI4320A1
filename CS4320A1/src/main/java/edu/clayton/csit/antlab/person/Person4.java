@@ -31,7 +31,12 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      return null;
+      char[] c = input.toCharArray();
+      for(int i = 0; i < c.length; i++)
+        c[i] += 1;
+      String str = String.copyValueOf(c);
+
+      return str;
     }
     
     /**
@@ -45,6 +50,13 @@ public class Person4 {
     public String toString(String input) {
       return name + calc(input);
     }
+
+    // A main method was created to test the calc & toString method above
+    /*
+    public static void main(String[] args) {
+        Person4 p = new Person4("Dennis");
+        System.out.println(p.toString("Dennis"));
+    */
 
 }
 
