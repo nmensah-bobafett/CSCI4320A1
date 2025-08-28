@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run AntLabMain",
+      "request": "launch",
+      "mainClass": "edu.clayton.csit.antlab.pkg1.AntLabMain",
+      "classPaths": [
+        "bin",
+        "lib/resources"
+      ]
+    }
+  ]
+}
+
