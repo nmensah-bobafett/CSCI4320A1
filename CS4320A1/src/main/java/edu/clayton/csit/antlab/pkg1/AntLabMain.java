@@ -1,9 +1,9 @@
 package edu.clayton.csit.antlab.pkg1;
 
 
-import edu.cs4320.antlab.pkg3.*;
 import edu.clayton.csit.antlab.person.*;
 import edu.clayton.csit.antlab.pkg2.*;
+import edu.cs4320.antlab.pkg3.*;
 
 
 /**
@@ -67,14 +67,14 @@ import edu.clayton.csit.antlab.pkg2.*;
 		  //and csuLaker3 with your laker id
 		  Person3 p3 = new Person3("Amos Osei");
 		  toPrint += p3.toString("900******");
-                  //Person4 replace P4 with your name
-                  //and csuLaker4 with your laker id
-                  Person4 p4 = new Person4("Dennis");
-                  toPrint += p4.toString("Dthomas129");
-                  //Person5 replace P4 with your name
-                  //and csuLaker5 with your laker id
-                  Person5 p5 = new Person5("P5");
-                  toPrint += p5.toString("csuLaker5");
+          //Person4 replace P4 with your name
+          //and csuLaker4 with your laker id
+          Person4 p4 = new Person4("Dennis");
+          toPrint += p4.toString("Dthomas129");
+          //Person5 replace P4 with your name
+          //and csuLaker5 with your laker id
+          Person5 p5 = new Person5("P5");
+          toPrint += p5.toString("csuLaker5");
 		  
         System.out.println(toPrint);
         

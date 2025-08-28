@@ -31,7 +31,10 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 	  //Person 5 put your implementation here
-	  return null;
+		if(input == null || input.length() <2){
+			return input; // return as-is if too short to rotate
+		}
+		return input.substring(2) + input.subSequence(0, 0);
 	}
 	
 	/**
