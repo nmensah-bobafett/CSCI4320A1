@@ -1,2 +1,0 @@
-amos 
-email; upon request
