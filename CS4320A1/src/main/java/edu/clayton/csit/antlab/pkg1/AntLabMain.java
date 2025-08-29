@@ -57,23 +57,23 @@ import edu.cs4320.antlab.pkg3.*;
           + ant22.getMessage() + ant31.getMessage();
 		  //Person1 replace P1 with your name
 		  //and csuLaker1 with your laker id
-		  Person1 p1 = new Person1("Narkwor Mensah");
+		  Person1 p1 = new Person1("\nNarkwor Mensah\t");
 		  toPrint += p1.toString("900*******");
 		  //Person2 replace P2 with your name
 		  //and csuLaker with your laker id
-		  Person2 p2 = new Person2("Tyrese Mayberry");
+		  Person2 p2 = new Person2("\nTyrese Mayberry\t");
 		  toPrint += p2.toString("tmayberry1");
 		  //Person3 replace P3 with your name
 		  //and csuLaker3 with your laker id
-		  Person3 p3 = new Person3("Amos Osei");
+		  Person3 p3 = new Person3("\nAmos Osei\t");
 		  toPrint += p3.toString("900******");
           //Person4 replace P4 with your name
           //and csuLaker4 with your laker id
-          Person4 p4 = new Person4("Dennis");
+          Person4 p4 = new Person4("\nDennis\t");
           toPrint += p4.toString("Dthomas129");
           //Person5 replace P4 with your name
           //and csuLaker5 with your laker id
-          Person5 p5 = new Person5("P5");
+          Person5 p5 = new Person5("\nP5\t");
           toPrint += p5.toString("csuLaker5");
 		  
         System.out.println(toPrint);
@@ -94,4 +94,5 @@ import edu.cs4320.antlab.pkg3.*;
     
     
     
+
  } 
