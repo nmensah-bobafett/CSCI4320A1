@@ -1,14 +1,14 @@
 package edu.clayton.csit.antlab.person;
-import java.util.*;
+
 /**
- *  A simple class for person 5
+ *  A simple class for person 3
  *  returns their name and a
  *  modified string 
  *  
  *  @author Qu
  *  @version 1.1
  */
-public class Person5 {
+public class Person3 {
   /** Holds the persons real name */
   private String name;
   	/**
@@ -16,7 +16,7 @@ public class Person5 {
 	 * name
 	 * @param pname the person's real name
 	 */
-  public Person5(String pname) {
+  public Person3(String pname) {
     name = pname;
   }
   	/**
@@ -30,7 +30,7 @@ public class Person5 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 5 put your implementation here
+	  //Person 3 put your implementation here
 	  if(input == null || input.length() <2){
 		return input; // return as-is if too short to rotate
 	  }
